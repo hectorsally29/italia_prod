@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+.yes, .no {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.yes {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.no {
+    background-color: #d9534f;
+    color: white;
+    position: absolute;
+}
+
+.corner {
+    position: fixed;
+    width: 200px; /* Increase size */
+    height: 200px;
+    z-index: -1; /* Keeps images in the background */
+}
+
+.corner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images are well-fitted */
+    border-radius: 20px; /* Optional: Adds soft rounded corners */
+}
+
+.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+.bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+
